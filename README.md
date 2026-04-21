@@ -51,3 +51,4 @@ A lightweight PHP web application for uploading, tagging, and organizing product
 - Uploaded files are not listable (`uploads/.htaccess` has `Options -Indexes`).
 - API failures auto-delete the just-uploaded file.
 - If DB insert fails, the UI still returns AI output, and the insert error is logged server-side.
+ 
